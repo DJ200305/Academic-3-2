@@ -1,0 +1,7 @@
+1. AVSystem Blog         → Build basic intuition (Transport layer protocols)
+        ↓
+2. Carleton PDF Survey   → Get the full 1G–6G picture
+        ↓
+3. PMC 6G IoT Paper      → Deepen 5G/6G understanding
+        ↓
+4. MDPI Protocol Paper   → Nail the Network & Transport layer details
