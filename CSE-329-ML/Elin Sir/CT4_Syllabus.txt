@@ -1,0 +1,3 @@
+Final Syllabus -> Unsupervised Learning, Clustering, Kmeans, Dimensionality Reduction, PCA 
+Learning Probabilstic Model, Bayesian Learning, Maximum Likelihood Learning  
+EM, GMM, Semi Supervise, Self Supervised. 
