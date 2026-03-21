@@ -1,0 +1,59 @@
+Task1:
+Below things have been found after analyzing .flowmon file:
+
+Metric:Flow 1,Flow 2
+Source:10.1.1.1,10.1.3.1
+Destination:10.1.3.1,10.1.2.1
+Packets (Tx/Rx):984 / 984,973 / 973
+Bytes (Tx/Rx):"531,360 / 531,360","525,420 / 525,420"
+Packet Loss:0 (0%),0 (0%)
+Min/Max Delay:15.76 ms,15.76 ms
+Throughput:~476 Kbps,~473 Kbps
+
+Task2:
+In task2 , various operations like enqueue,dequeue on the device queue, r(meaning a packet was received by the netdevice) happened.
+Below statistics have been found from logging:
+PING 10.0.6.2 - 1024 bytes of data; 1052 bytes including ICMP and IPv4 headers.
+1032 bytes from 10.0.6.2: icmp_seq=0 ttl=63 time=31.262 ms
+1032 bytes from 10.0.6.2: icmp_seq=1 ttl=63 time=14.849 ms
+1032 bytes from 10.0.6.2: icmp_seq=2 ttl=63 time=14.849 ms
+1032 bytes from 10.0.6.2: icmp_seq=3 ttl=63 time=14.849 ms
+1032 bytes from 10.0.6.2: icmp_seq=4 ttl=63 time=14.849 ms
+1032 bytes from 10.0.6.2: icmp_seq=5 ttl=63 time=14.849 ms
+1032 bytes from 10.0.6.2: icmp_seq=6 ttl=63 time=14.849 ms
+1032 bytes from 10.0.6.2: icmp_seq=7 ttl=63 time=14.849 ms
+1032 bytes from 10.0.6.2: icmp_seq=8 ttl=63 time=14.849 ms
+1032 bytes from 10.0.6.2: icmp_seq=9 ttl=63 time=14.849 ms
+1032 bytes from 10.0.6.2: icmp_seq=10 ttl=63 time=14.849 ms
+1032 bytes from 10.0.6.2: icmp_seq=11 ttl=63 time=14.849 ms
+1032 bytes from 10.0.6.2: icmp_seq=12 ttl=63 time=14.849 ms
+1032 bytes from 10.0.6.2: icmp_seq=13 ttl=63 time=14.849 ms
+1032 bytes from 10.0.6.2: icmp_seq=14 ttl=63 time=14.849 ms
+1032 bytes from 10.0.6.2: icmp_seq=15 ttl=63 time=14.849 ms
+1032 bytes from 10.0.6.2: icmp_seq=16 ttl=63 time=14.849 ms
+1032 bytes from 10.0.6.2: icmp_seq=17 ttl=63 time=14.849 ms
+1032 bytes from 10.0.6.2: icmp_seq=18 ttl=63 time=14.849 ms
+1032 bytes from 10.0.6.2: icmp_seq=19 ttl=63 time=14.849 ms
+1032 bytes from 10.0.6.2: icmp_seq=20 ttl=63 time=14.849 ms
+1032 bytes from 10.0.6.2: icmp_seq=21 ttl=63 time=14.849 ms
+1032 bytes from 10.0.6.2: icmp_seq=22 ttl=63 time=14.849 ms
+1032 bytes from 10.0.6.2: icmp_seq=23 ttl=63 time=14.849 ms
+1032 bytes from 10.0.6.2: icmp_seq=24 ttl=63 time=14.849 ms
+1032 bytes from 10.0.6.2: icmp_seq=25 ttl=63 time=14.849 ms
+1032 bytes from 10.0.6.2: icmp_seq=26 ttl=63 time=14.849 ms
+1032 bytes from 10.0.6.2: icmp_seq=27 ttl=63 time=14.849 ms
+1032 bytes from 10.0.6.2: icmp_seq=28 ttl=63 time=14.849 ms
+1032 bytes from 10.0.6.2: icmp_seq=29 ttl=63 time=14.849 ms
+1032 bytes from 10.0.6.2: icmp_seq=30 ttl=63 time=14.849 ms
+1032 bytes from 10.0.6.2: icmp_seq=31 ttl=63 time=14.849 ms
+1032 bytes from 10.0.6.2: icmp_seq=32 ttl=63 time=14.849 ms
+1032 bytes from 10.0.6.2: icmp_seq=33 ttl=63 time=14.849 ms
+1032 bytes from 10.0.6.2: icmp_seq=34 ttl=63 time=14.849 ms
+1032 bytes from 10.0.6.2: icmp_seq=35 ttl=63 time=14.849 ms
+1032 bytes from 10.0.6.2: icmp_seq=36 ttl=63 time=14.849 ms
+1032 bytes from 10.0.6.2: icmp_seq=37 ttl=63 time=14.849 ms
+1032 bytes from 10.0.6.2: icmp_seq=38 ttl=63 time=14.849 ms
+
+--- 10.0.6.2 ping statistics ---
+109 packets transmitted, 39 received, 64% packet loss, time 109000ms
+rtt min/avg/max/mdev = 14/14.44/31/2.722 ms  

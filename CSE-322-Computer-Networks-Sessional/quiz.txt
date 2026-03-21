@@ -1,0 +1,16 @@
+============CSE 322 Quiz Details=============
+Date and time: March 31, Tuesday, 3.30 PM - 4.30 PM
+Venue: 
+103:  2105001-2105036
+104:  2105037-2105072
+107:  2105073-2105108
+108:  2105109-2105144
+109:  2105145-2105181 + prev
+Syllabus:
+
+Socket Programming: Concepts of socket programming and assignment relevant knowledge
+Packet Tracer: Topics that have been covered in classes, i.e., Basics, VLAN, Routing, NAT, and ACL.
+Wireshark: Full lecture
+NS3: Topics and concepts that have been covered in NS3 lecture, starting from first.cc to seventh.cc
+Advanced Networking Concepts: Full Lecture
+IoT: Assignment relevant knowledge
